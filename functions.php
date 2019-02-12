@@ -51,12 +51,7 @@ if ( !function_exists( 'minimal_theme_setup' ) &&
 
     }
 
+    add_action( 'after_setup_theme', 'minimal_theme_setup' );
 }
-
-add_action( 'after_setup_theme', 'minimal_theme_setup' );
-
-
-
-
 
  ?>
