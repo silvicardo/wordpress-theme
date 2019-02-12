@@ -54,6 +54,12 @@ if ( !function_exists( 'minimal_theme_setup' ) &&
 
     add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
 
+
+    function add_class_to_excerpt( $excerpt ) {
+        return str_replace('<p', '<p class="excerpt"', $excerpt);
+    }
+    add_filter( 'the_excerpt', 'add_class_to_excerpt' );
+
     function minimal_theme_style_plus_scripts() {
 
       wp_enqueue_style( 'style-css', get_template_directory_uri() . '/assets/css/style.css');
