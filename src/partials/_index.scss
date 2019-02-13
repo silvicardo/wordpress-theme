@@ -1,0 +1,21 @@
+
+#index_loop_cnt {
+  .card {
+    .card-header{
+      .card-title {
+        font-weight: $boldestFont;
+        font-size: $xlFontSize;
+      }
+    }
+    .card-body {
+      .wp-post-image {
+        max-height: 140px;
+        max-width: 100%;
+        width: auto;
+      }
+      .excerpt {
+        font-size: $biggerFontSize;
+      }
+    }
+  }
+}

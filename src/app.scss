@@ -1,13 +1,6 @@
-/*
 
-Theme Name: minimal
-Author: Riccardo Silvi
-Author URI: https://github.com/silvicardo/wordpress-theme
-Version: 1.0
-
-*/
-
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import "node_modules/bootstrap/scss/bootstrap.scss";
-@import "/node_modules/owl.carousel2/dist/assets/owl.carousel.min.css";
 @import "variables";
 @import "common";
+@import "partials/_index";

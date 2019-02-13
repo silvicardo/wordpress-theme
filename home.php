@@ -1,7 +1,6 @@
 <!-- HEADER -->
 <?php get_header(); ?>
 
-
 <div id="index_loop_cnt" class="container">
   <div class="row">
 

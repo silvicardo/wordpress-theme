@@ -1,13 +1,4 @@
-@import url(/node_modules/owl.carousel2/dist/assets/owl.carousel.min.css);@charset "UTF-8";
-
-/*
-
-Theme Name: minimal
-Author: Riccardo Silvi
-Author URI: https://github.com/silvicardo/wordpress-theme
-Version: 1.0
-
-*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);@charset "UTF-8";
 
 /*!
  * Bootstrap v4.3.0 (https://getbootstrap.com/)
@@ -10683,12 +10674,19 @@ a:hover {
 
 #main_container {
   max-width: 100vw;
-  height: 100vh;
+  height: auto;
   overflow: auto;
 }
 
 #page_content {
-  margin-top: 140px;
+  margin-top: 40px;
+}
+
+.position-absolute.center {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 /*REGOLE PRINCIPALI ---> fontSize Media Queries*/
@@ -10703,5 +10701,20 @@ a:hover {
   * {
     font-size: 10px;
   }
+}
+
+#index_loop_cnt .card .card-header .card-title {
+  font-weight: 800;
+  font-size: 1.6rem;
+}
+
+#index_loop_cnt .card .card-body .wp-post-image {
+  max-height: 140px;
+  max-width: 100%;
+  width: auto;
+}
+
+#index_loop_cnt .card .card-body .excerpt {
+  font-size: 1.3rem;
 }
 
