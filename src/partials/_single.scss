@@ -1,0 +1,14 @@
+#page_content {
+  .post {
+    .single-post-title {
+      font-size: $doubleRemFontSize;
+      font-weight: $bolderFont;
+      text-transform: uppercase;
+    }
+    .wp-post-image {
+      width: auto;
+      max-width: 100%;
+      max-height: 500px;
+    }
+  }
+}
